@@ -44,6 +44,7 @@ debugger;
       }
     }).filter(f=> f.imageUrl !==null)
   })
+  console.log('data.length.....',data.length)
   saveData({data,filename:`${batchName}.json`})
   debugger;
 } catch (error) {
