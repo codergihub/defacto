@@ -1,0 +1,10 @@
+.idea
+*.log
+node_modules
+*.lock
+.env
+
+page-data
+books.json
+
+kadin-elbise.json

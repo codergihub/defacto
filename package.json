@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/codergihub/moda/issues"
   },
-  "homepage": "https://github.com/codergihub/moda#readme"
+  "homepage": "https://github.com/codergihub/moda#readme",
+  "dependencies": {
+    "puppeteer": "^13.0.0",
+    "wflows": "^1.2.7"
+  }
 }
